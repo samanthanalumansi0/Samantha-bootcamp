@@ -1,0 +1,138 @@
+.body {
+    background: linear-gradient(99.6deg, rgb(108, 160, 157) 10.6%, rgb(173, 172, 156) 32.9%,  rgb(108, 109, 112) 72.8%, rgb(118, 126, 134) 81.1%, rgb(231, 155, 206) 102.4%);
+}
+
+.header {
+    list-style-type:none ;
+    margin: 0;
+    padding: 0.8%;
+    overflow: hidden;
+    background: linear-gradient(109.6deg, rgb(228, 231, 38) 11.2%, rgb(89, 236, 236) 100.2% );
+    opacity: 1;
+    text-align: right;
+    font-size: xx-large;
+    height: 13%;
+    border-radius: 50px; 
+    
+}
+
+.one {
+    image-resolution: 1000%;
+    margin-right: 10%;
+}
+
+.h1 {
+    text-align: center;
+    color: yellow ;
+    font-size: xx-large;
+    font-family: cursive;
+    text-shadow: 10px 10px 15px greenyellow;
+}
+
+.h2 {
+    text-align: center;
+    color: yellow ;
+    font-size: xx-large;
+    font-family: cursive;
+    text-shadow: 10px 10px 15px greenyellow;
+}
+table, th,td {
+    border: 1px yellow;
+}
+
+table {
+    width: 100%;
+   
+}
+
+.td {
+    padding: 10px;
+}
+
+
+
+.td:hover {
+    background-color: goldenrod;
+}
+
+
+
+.Localfood {
+    width: 20%;
+    padding: 5px;
+}
+
+.Fingerfood {
+    width: 20%;
+    padding: 5px;
+}
+
+.Berbecue {
+    padding: 5px;
+    width: 20%;
+    
+}
+
+.Desserts{
+    padding: 5px;
+    width: 20%;
+}
+
+.drinks {
+    padding: 5px;
+    width: 20%;
+}
+
+tr :nth-child(even) {
+    background-color: rgba(162, 66, 240, 0.603);
+    opacity: 0.9;
+    color: rgb(255, 255, 255);
+}
+
+tr :nth-child(odd) {
+    background-color: rgb(39, 134, 211);
+    opacity: 0.9;
+    color: rgb(255, 255, 255);
+}
+
+.div1 {
+    text-align: center;
+    background: linear-gradient(109.6deg, rgb(252, 255, 26) 34.9%, rgb(66, 240, 233) 82.5%);
+    color: grey;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+
+
+
+li {
+    float: left;
+    margin-left: 15%;
+   
+}
+
+li a {
+     display: block; 
+     color:grey;
+     padding: 16px;
+     text-decoration: none;
+     text-align: center;
+     font-size: xx-large;
+     font-family: cursive;
+}
+
+li a:hover {
+    background-color: greenyellow;
+}
+
+.footer {
+    height: 18%;
+    text-align: center;
+    background: linear-gradient(109.6deg, rgb(228, 231, 38) 11.2%, rgb(89, 236, 236) 100.2% );
+    color: grey;
+    font-size: x-large;
+    font-family:cursive ;
+}
+
+

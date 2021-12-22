@@ -1,0 +1,170 @@
+.h1 {
+    text-align: center;
+    color: yellow;
+    font-size: 320%;
+    font-family: cursive;
+    text-shadow: 10px 10px 15px greenyellow;
+
+    
+}
+.body {
+    background: linear-gradient(99.6deg, rgb(108, 160, 157) 10.6%, rgb(173, 172, 156) 32.9%,  rgb(108, 109, 112) 72.8%, rgb(118, 126, 134) 81.1%, rgb(231, 155, 206) 102.4%)
+}
+
+.img.one {
+    image-resolution: 100%;
+}
+
+.div1{
+    background-image: url("fooodd13.jpeg") ;
+    opacity: 0.9;
+    text-align: center;
+    text-size-adjust: 20%;
+    color: white;
+    font-size: 270%;
+    font-weight: bold;
+    font-family: cursive;
+    padding-top: 20%;
+    
+ 
+   
+}
+
+.div2 {
+    background-image: url("fooodd9.jpeg");
+    opacity: 0.9;
+    text-align: center;
+    color: white;
+    font-size: 270%;
+    font-family: cursive;
+    padding: 10%;
+    text-size-adjust: 20%;
+    position: left;
+    
+      
+}
+.div3 {
+    background: linear-gradient(109.6deg, rgb(228, 231, 38) 11.2%, rgb(89, 236, 236) 100.2% );
+    opacity: 1;
+    text-align: center;
+    color: grey;
+    font-family: cursive;
+    padding: 5%;
+    text-size-adjust: 20%;
+    position: left;
+    
+}
+
+.header-ul {
+    list-style-type:none ;
+    padding: 1%;
+    overflow: hidden;
+    background: linear-gradient(109.6deg, rgb(228, 231, 38) 11.2%, rgb(89, 236, 236) 100.2% );
+    opacity: 1;
+    text-align: right;
+    font-size: x-large;
+    height: 14%;
+    border-radius: 50px; 
+   
+}
+
+.one {
+    margin-left: auto;
+    margin-right: 10%;
+    image-resolution: 1000%;
+    margin-bottom: 2%;
+    margin-top: auto;
+}
+
+
+.img {
+    height: 10%;
+    image-resolution: 400%;
+}
+.button {
+    border-radius: 80%;
+    background-color:yellow;
+    padding: 2.8%;
+    text-align: center;
+    font-family: cursive;
+    color: grey;
+    display: 10px;
+    margin-right: 30%;
+    margin-left: 30%;
+    box-shadow: greenyellow;
+    position: relative;
+    
+}
+
+.button:hover {
+    background-color: lightgreen;
+}
+
+li {
+    float: left;
+    margin-left: 5%;
+    margin-right: 4%;
+}
+
+li a {
+     display: block; 
+     color:grey;
+     padding: 12px;
+     text-decoration: none;
+     text-align: center;
+     font-size: xx-large;
+     font-family: cursive;
+}
+
+li a:hover {
+    background-color:greenyellow;
+
+}
+
+.footer {
+    height: 17%;
+    text-align: center;
+    background: linear-gradient(109.6deg, rgb(228, 231, 38) 11.2%, rgb(89, 236, 236) 100.2% );
+    color: grey;
+    font-size: x-large;
+    font-family:cursive ;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+background-color:yellow;
+}
+
+li.dropdown {
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background: linear-gradient(109.6deg, rgb(228, 231, 38) 11.2%, rgb(89, 236, 236) 100.2% );
+min-width: 2%;
+
+}
+
+.dropdown-content a {
+color: yellow;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: center;
+}
+
+.dropdown-content a:hover { 
+    background-color: yellowgreen}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}

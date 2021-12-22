@@ -1,0 +1,132 @@
+.body {
+    background: linear-gradient(109.6deg, rgb(252, 255, 26) 34.9%, rgb(87, 236, 204) 50.5%);
+}
+
+.para1 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 340%;
+    color: grey;
+    text-shadow: 9px 9px 15px hotpink;
+
+}
+
+.div1 {
+    background-image: url("fooodd16.jpeg");
+    opacity: 1;
+    text-align: center;
+    font-size: xx-large;
+    text-size-adjust: 100%;
+    font-family: cursive;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+}
+.footer {
+   height: 18%;
+    text-align: center;
+    background: linear-gradient(109.6deg, rgb(250, 176, 188) 11.2%, rgb(252, 232, 68) 52%, rgb(53, 178, 239) 100.2%);
+    color: grey;
+    font-size: x-large;
+    font-family: cursive;
+}
+
+.address {
+    background-color: rgb(250, 176, 188);
+    color:gray;
+    
+}
+
+.ul {
+    list-style-type:none ;
+    overflow: auto;
+    background: linear-gradient(109.6deg, rgb(250, 176, 188) 20.2%, rgb(224, 221, 49) 60%, rgb(66, 216, 216) 80.2%);
+    opacity: 1;
+    text-align: left;
+    font-size: x-large;
+    height:2000px;
+    position: fixed;
+    width: 13%;  
+}
+
+.pic {
+   margin-left: auto;
+   
+}
+
+
+.button {
+    border-radius: 30%;
+    background-color:white;
+    padding: 2%;
+    text-align: center;
+    font-family: cursive;
+    color: black;
+    display: 10px;
+    margin-right: 60%;   
+
+}
+
+li {
+    float: left;
+    margin-left: 10%;
+}
+
+li a {
+     display: block; 
+     color:grey;
+     padding: 12px;
+     text-decoration: none;
+     text-align: center;
+     font-size: xx-large;
+     font-family: cursive;
+     font-size: xx-large;
+}
+
+li a:hover {
+    background-color:yellow;
+
+}
+
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+background-color:yellow;
+}
+
+li.dropdown {
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background: linear-gradient(109.6deg, rgb(228, 231, 38) 11.2%, rgb(89, 236, 236) 100.2% );
+min-width: 3%;
+
+}
+
+.dropdown-content a {
+color: yellow;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover { 
+    background-color: yellowgreen}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+

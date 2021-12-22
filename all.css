@@ -1,0 +1,53 @@
+table, th,td {
+    border: 1px yellow;
+}
+
+table {
+    width: 100%;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 20%;
+   
+}
+
+.td {
+    padding: 10px;
+}
+
+tr :nth-child(even) {
+    background-color: grey;
+    opacity: 0.9;
+    color: rgb(255, 255, 255);
+}
+
+tr :nth-child(odd) {
+    background-color: whitesmoke;
+    opacity: 0.9;
+    color: green;
+}
+body {
+    background-image: url("setup.jpeg");
+    background-repeat: none;
+}
+
+li {
+    float: left;
+    margin-left: 5%;
+    margin-right: 4%;
+}
+
+li a {
+     display: block; 
+     color:grey;
+     padding: 12px;
+     text-decoration: none;
+     text-align: center;
+     font-size: xx-large;
+     font-family: cursive;
+}
+
+li a:hover {
+    background-color:greenyellow;
+
+}

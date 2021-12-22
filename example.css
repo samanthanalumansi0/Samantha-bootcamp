@@ -1,0 +1,64 @@
+body {
+    background-color: royalblue; 
+    color: black;
+}
+table,th {
+    border: 2px solid #f8f7f7bd;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.th {
+     text-align: center;
+
+}
+
+.date {
+    width: 10%;
+}
+
+.orderID {
+    width: 15%;
+    
+}
+
+.name {
+    width: 10%;
+    
+}
+
+.price {
+    width: 10%;
+}
+
+.quantity {
+    width: 10%;
+}
+.total {
+    width: 15%;
+}
+
+tr:nth-child(even) {
+    background-color: grey;
+    opacity: 0.9;
+    
+    
+}
+
+tr:nth-child(odd) {
+    background-color:whitesmoke;
+    opacity: 0.8;
+}
+
+th:nth-child(even) {
+    background-color: darkblue;
+    
+}
+
+th:nth-child(odd) {
+    background-color: darkblue;
+}
